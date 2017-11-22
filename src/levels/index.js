@@ -19,8 +19,9 @@ exports.levelSequences = {
   ],
   mixed: [
     require('./mixed/grabbingOneCommit').level,
-    require('./mixed/jugglingCommits').level,
-    require('./mixed/jugglingCommits2').level,
+    require('./mixed/errorsOfThePast').level,
+//    require('./mixed/jugglingCommits').level,
+//    require('./mixed/jugglingCommits2').level,
     require('./mixed/tags').level,
     require('./mixed/describe').level
   ],
@@ -42,11 +43,12 @@ exports.levelSequences = {
     require('./remote/pushManyFeatures').level,
     require('./remote/mergeManyFeatures').level,
     require('./remote/tracking').level,
-    require('./remote/pushArgs').level,
-    require('./remote/pushArgs2').level,
-    require('./remote/fetchArgs').level,
-    require('./remote/sourceNothing').level,
-    require('./remote/pullArgs').level
+
+//    require('./remote/pushArgs').level,
+//    require('./remote/pushArgs2').level,
+//    require('./remote/fetchArgs').level,
+//    require('./remote/sourceNothing').level,
+//    require('./remote/pullArgs').level
   ]
 };
 
