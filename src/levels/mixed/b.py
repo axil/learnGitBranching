@@ -1,0 +1,13 @@
+{'HEAD': {'id': 'HEAD', 'target': 'master'},
+ 'branches': {'caption': {'id': 'caption', 'target': "C3''"},
+              'master': {'id': 'master', 'target': "C3''"},
+              'newImage': {'id': 'newImage', 'target': 'C2'}},
+ 'commits': {'C0': {'id': 'C0', 'parents': [], 'rootCommit': True},
+             'C1': {'id': 'C1', 'parents': ['C0']},
+             'C2': {'id': 'C2', 'parents': ['C1']},
+             "C2'": {'id': "C2'", 'parents': ["C3'"]},
+             "C2''": {'id': "C2''", 'parents': ["C3'"]},
+             "C2'''": {'id': "C2'''", 'parents': ['C1']},
+             'C3': {'id': 'C3', 'parents': ['C2']},
+             "C3'": {'id': "C3'", 'parents': ['C1']},
+             "C3''": {'id': "C3''", 'parents': ["C2'''"]}}}
